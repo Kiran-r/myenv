@@ -1,2 +1,2 @@
 # vimrc
-My vimrc config for python
+My vimrc for python and git configuration
