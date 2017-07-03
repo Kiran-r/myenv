@@ -1,0 +1,47 @@
+Host iforgot
+    User krang006
+    Hostname iforgot
+    Port 22
+
+Host wc0*
+    User krang006
+    Port 22
+    # ProxyCommand ssh -q -W %h:%p iforgot
+    ProxyCommand ssh iforgot nc %h %p
+
+Host tui
+    Hostname ddwrt.cs.ucr.edu
+    Port 2000
+
+Host yue
+    Hostname ddwrt.cs.ucr.edu
+    Port 4000
+
+Host jarvis
+    Hostname ddwrt.cs.ucr.edu
+    Port 3700
+
+Host socal
+    Hostname ddwrt.cs.ucr.edu
+    Port 2500
+
+Host la
+    Hostname ddwrt.cs.ucr.edu
+    Port 3000
+
+Host tegra
+    User ubuntu
+    Hostname ddwrt.cs.ucr.edu
+    Port 3500
+
+Host bender
+    User kranganath
+    Hostname bender.ee.ucr.edu
+
+Host bulldozer
+    User stark
+    Hostname bulldozer64.cs.ucr.edu
+
+Host tardis
+    User krang006
+    Hostname tardis.cs.ucr.edu
