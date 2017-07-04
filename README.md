@@ -1,2 +1,2 @@
-# vimrc
-My vimrc for python and git configuration
+# myenv
+Personalization of Linux environments
