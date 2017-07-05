@@ -2,7 +2,7 @@
 # Author: Kiran Ranganath <kiran7193@gmail.com>
 
 git config --global user.name "Kiran Ranganath"
-git config --global user.email "kiran.ranganath@maplelabs.com"
+git config --global user.email "kiran7193@gmail.com"
 git config --global color.diff auto
 git config --global color.status auto
 git config --global color.branch auto
