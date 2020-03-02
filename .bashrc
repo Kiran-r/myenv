@@ -115,5 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export CUDA_INSTALL_PATH=/usr/local/cuda
-export PATH=$PATH:/usr/local/go/bin
+
+source $HOME/.envrc
